@@ -62,18 +62,6 @@ We are using a supervised learning model that will continue to use our code with
 
 ![sklearn_example](https://user-images.githubusercontent.com/96501958/168442833-9f2811c2-58ac-4276-95dc-be486bdf47d2.png)  
 
-
-## Judging the Results
-
-Ultimately the project will be considered successful when a reduction in crimes of various categories can be directly attributed to utilizing the technologies, languages, tools, and algorithms included in the project. In the short term success will be more attributed to proving that utilizing the technologies, languages, tools, and algorithms included in the project will lead to a reduction in crime.
-
-## Reccomendations for Future Analysis
-
-As a follow up for future analysis we might look at ways our project could be leveraged to provide other insights including expanding capabilities to identify trends and patterns that could help predict potential areas of concern. 
-
-=======
-![sklearn_example](https://user-images.githubusercontent.com/96501958/168442833-9f2811c2-58ac-4276-95dc-be486bdf47d2.png)
-
 ## Database
 
 ### Technology
@@ -89,6 +77,14 @@ Our preliminary schema will look like this:
 
 ![sample db layouts](https://github.com/dannybarto/Group_5_Final_Project/blob/main/sample%20db%20layouts.png)
  
+## Judging the Results
+
+Ultimately the project will be considered successful when a reduction in crimes of various categories can be directly attributed to utilizing the technologies, languages, tools, and algorithms included in the project. In the short term success will be more attributed to proving that utilizing the technologies, languages, tools, and algorithms included in the project will lead to a reduction in crime.
+
+## Reccomendations for Future Analysis
+
+As a follow up for future analysis we might look at ways our project could be leveraged to provide other insights including expanding capabilities to identify trends and patterns that could help predict potential areas of concern. 
+
 
 
 
