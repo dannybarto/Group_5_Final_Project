@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Group_5_Final_Project
 
 ## Selected Topic
@@ -32,9 +32,8 @@ The following list includes but is not limited to questions we will be asking an
 - What are some standard key metrics used by law enforcement agencies to resource plan as well as to determine what constitutes improvement in a particular area? 
 
 To be clear we are not necessarily looking to predict future crimes rather we are trying to develop tools that provide real time crime data to identify areas of focus in order to reduce the crime rate. 
-=======
+
 # Group 5 Final Project
->>>>>>> Lizzie
 
 ## Machine Learning  
 ### Problem trying to solve   
@@ -44,7 +43,6 @@ The two primary datasets being used (Violent_Crime_Offenses.csv and CMPD_Calls_f
 ### Choosing and training the model  
 We are using a supervised learning model that will continue to use our code with new, incoming data, and categorize it as we choose. We chose a supervised learning model because we know our data outcomes and plan on using both input and output data to benefit our goal. Our project scope falls under the classification subcategory for supervised learning because we will be applying labels to our data, categorizing areas based on our crime data. We will be using SKlearn and applying a logisitc regression to help classify our data. This will be used to decipher violent crimes from the calls for service. An example of what our sklearn machine learning code may look is picture below.
 
-<<<<<<< HEAD
 ![sklearn_example](https://user-images.githubusercontent.com/96501958/168442833-9f2811c2-58ac-4276-95dc-be486bdf47d2.png)  
 
 
@@ -58,4 +56,4 @@ As a follow up for future analysis we might look at ways our project could be le
 
 =======
 ![sklearn_example](https://user-images.githubusercontent.com/96501958/168442833-9f2811c2-58ac-4276-95dc-be486bdf47d2.png)
->>>>>>> Lizzie
+
