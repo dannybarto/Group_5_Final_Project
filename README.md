@@ -11,11 +11,32 @@ We chose this topic as each of the team members lives in the area and has a vest
 
 ## Project Objectives
 
-Our goal is to develop a process to identify a response area's particular needs based on calls for service. We will look at the number of calls as well as the types of calls coming in from these response areas and align that information with officer experience and qualifications. We'll also look at the best allocation of vehicles based on the type needed as well as the supplies and gear that might be needed. 
+Our goal is to develop a process to identify a response area's particular needs based on calls for service and types of crimes/incidents occuring in those areas. We will look at the number of calls and the types of calls and incidents coming in from these response areas and align that information with officer experience and qualifications. We'll also look at the best allocation of vehicles based on the type needed as well as the supplies and gear that might be needed. 
 
 ## Data Sources
 
-Our primary source of information will be the *City of Charlotte Open Data Portal* and we will also be pulling data from other sources deemed necessary to get the most complete picture.
+Our primary source of information will be the [City of Charlotte Open Data Portal] (https://data.charlottenc.gov/) and we will also be pulling data from other sources deemed necessary to get the most complete picture.
+
+We currently have 3 data sets from the City of Charlotte Open Data Portal that we will be looking at to complete our analysis. 
+
+[Call Data](CMPD_Calls_for_Service.csv)
+
+[Offense Data](Violent_Crime_Offenses.csv)
+
+[Incident Data](CMPD_Incidents.csv) 
+
+There are a few main data points that we will be examining:
+
+- Calendar Year/Month - We plan to filter our data for a smaller subset of the time
+- Geography ID/Location - The location of the call, incident or offense. ** More research will go into     making sure these we understand which ID's correspond to different neighborhoods/divisions in the city** 
+- Call Count - number of calls coming in from specific locations in the city
+- Call Description - type of call that is coming in, Domestic Violence or Patrol Call
+- Offense Description - type of offense that has occured
+- Offense Count - number of certain offenses occuring in that specific location 
+- CMPD Patrol Division - designated patrol divisions that the CMPD has created in the city of Charlotte 
+- Highest NIBRS Description - incident description based on the FBI NIBRS (National Incident-Based Reporting System) ** We will most likely condense/organize these incidents into categories**
+- Clearance Status - the clearance status of the crime 
+
 
 ## Questions and Considerations
 
@@ -38,8 +59,6 @@ To be clear we are not necessarily looking to predict future crimes rather we ar
 ## Machine Learning  
 ### Problem trying to solve   
 Our goal is to create a supervised machine learning model to look at number of calls and types of calls coming in, in hopes that this information will allow better distribute of cops and supplies that may be needed based on the type of crime occuring. If successful, calls will be categorized as violent or non-violent calls which we can then map our geographically to find out where violent crime is most prominent.  
-### Data needed  
-The two primary datasets being used (Violent_Crime_Offenses.csv and CMPD_Calls_for_Service.csv) are both public and can be found and accessed through the Charlotte Open Data Portal (https://data.charlottenc.gov/). These datasets contain data from 2015 through 2022. Our expectation is to use the categorize violent crimes from incoming calls to help map out where violence in the Charlotte area is heaviest.
 ### Choosing and training the model  
 We are using a supervised learning model that will continue to use our code with new, incoming data, and categorize it as we choose. We chose a supervised learning model because we know our data outcomes and plan on using both input and output data to benefit our goal. Our project scope falls under the classification subcategory for supervised learning because we will be applying labels to our data, categorizing areas based on our crime data. We will be using SKlearn and applying a logisitc regression to help classify our data. This will be used to decipher violent crimes from the calls for service. An example of what our sklearn machine learning code may look is picture below.
 
