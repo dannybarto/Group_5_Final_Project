@@ -1,8 +1,8 @@
- # Group_5_Final_Project
+# Group 5 Final Project
 
 ## Selected Topic
 
-* Selected Topic- We have opted to review and analyze crime statistics in service areas covered by the Charlotte Mecklenburg Police Department. We will use the data to assist the police department in resource planning and deployment. The primary resource impacted will be the officers themselves but the data will also help determine the optimal placement and use of technology and equipment. 
+We have opted to review and analyze crime statistics in service areas covered by the Charlotte Mecklenburg Police Department. We will use the data to assist the police department in resource planning and deployment. The primary resource impacted will be the officers themselves but the data will also help determine the optimal placement and use of technology and equipment. 
 
 ## Reason for Choosing the Topic
 
@@ -16,7 +16,7 @@ Our goal is to develop a process to identify a response area's particular needs 
 
 Our primary source of information will be the [City of Charlotte Open Data Portal](https://data.charlottenc.gov/) and we will also be pulling data from other sources deemed necessary to get the most complete picture.
 
-We currently have 3 data sets from the City of Charlotte Open Data Portal that we will be looking at to complete our analysis. 
+We currently have 3 datasets from the City of Charlotte Open Data Portal that we will be looking at to complete our analysis. 
 
 [Call Data](CMPD_Calls_for_Service.csv)
 
@@ -36,7 +36,6 @@ There are a few main data points that we will be examining:
 - Highest NIBRS Description - incident description based on the FBI NIBRS (National Incident-Based Reporting System) ** We will most likely condense/organize these incidents into categories**
 - Clearance Status - the clearance status of the crime 
 
-
 ## Questions and Considerations
 
 The following list includes but is not limited to questions we will be asking and answering in order to make our determinations:
@@ -53,10 +52,11 @@ The following list includes but is not limited to questions we will be asking an
 
 To be clear we are not necessarily looking to predict future crimes rather we are trying to develop tools that provide real time crime data to identify areas of focus in order to reduce the crime rate. 
 
-
 ## Machine Learning  
+
 ### Problem trying to solve   
 Our goal is to create a supervised machine learning model to look at number of calls and types of calls coming in, in hopes that this information will allow better distribute of cops and supplies that may be needed based on the type of crime occuring. If successful, calls will be categorized as violent or non-violent calls which we can then map our geographically to find out where violent crime is most prominent.  
+
 ### Choosing and training the model  
 We are using a supervised learning model that will continue to use our code with new, incoming data, and categorize it as we choose. We chose a supervised learning model because we know our data outcomes and plan on using both input and output data to benefit our goal. Our project scope falls under the classification subcategory for supervised learning because we will be applying labels to our data, categorizing areas based on our crime data. We will be using SKlearn and applying a logisitc regression to help classify our data. This will be used to decipher violent crimes from the calls for service. An example of what our sklearn machine learning code may look is picture below.
 
@@ -81,7 +81,7 @@ Our preliminary schema will look like this:
 
 Ultimately the project will be considered successful when a reduction in crimes of various categories can be directly attributed to utilizing the technologies, languages, tools, and algorithms included in the project. In the short term success will be more attributed to proving that utilizing the technologies, languages, tools, and algorithms included in the project will lead to a reduction in crime.
 
-## Reccomendations for Future Analysis
+## Recomendations for Future Analysis
 
 As a follow up for future analysis we might look at ways our project could be leveraged to provide other insights including expanding capabilities to identify trends and patterns that could help predict potential areas of concern. 
 
