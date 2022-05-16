@@ -81,7 +81,7 @@ Our preliminary schema will look like this:
 
 Ultimately the project will be considered successful when a reduction in crimes of various categories can be directly attributed to utilizing the technologies, languages, tools, and algorithms included in the project. In the short term success will be more attributed to proving that utilizing the technologies, languages, tools, and algorithms included in the project will lead to a reduction in crime.
 
-## Recomendations for Future Analysis
+## Recommendations for Future Analysis
 
 As a follow up for future analysis we might look at ways our project could be leveraged to provide other insights including expanding capabilities to identify trends and patterns that could help predict potential areas of concern. 
 
