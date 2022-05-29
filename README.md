@@ -76,7 +76,11 @@ Our preliminary schema will look like this:
 ![sample db schema](https://github.com/dannybarto/Group_5_Final_Project/blob/main/sample%20db%20schema.png)
 
 ![sample db layouts](https://github.com/dannybarto/Group_5_Final_Project/blob/main/sample%20db%20layouts.png)
- 
+
+### Dashboard - Tableau
+
+[Tableau Story Board](https://public.tableau.com/app/profile/brittany.marchand/viz/Group-5-CMPD-CrimeData/CMPDCrimeData?publish=yes)
+
 ## Judging the Results
 
 Ultimately the project will be considered successful when a reduction in crimes of various categories can be directly attributed to utilizing the technologies, languages, tools, and algorithms included in the project. In the short term success will be more attributed to proving that utilizing the technologies, languages, tools, and algorithms included in the project will lead to a reduction in crime.
