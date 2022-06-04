@@ -22,9 +22,9 @@ The following list includes but is not limited to questions we will be asking an
 
 To be clear we are not necessarily looking to predict future crimes rather we are trying to give insight and indentify areas of focus to help the CMPD reduce crime rate.
 
-## Data Sources
+## Data Sources 
 
-Our primary source of information is the [City of Charlotte Open Data Portal](https://data.charlottenc.gov/)
+Our primary source of information is the [City of Charlotte Open Data Portal](<a href= "https://data.charlottenc.gov/" target="_blank">)
 
 We looked at the CMPD Incident report data primarily. This data set was so vast, that we decided to break this into 3 different tables for our analysis.
 To view these tables, you can access them by the below link as they were too large to upload to GitHub.
@@ -38,7 +38,7 @@ There are a few main data points that we will be examining:
 - Incident Report ID - This is the unqiue identifier for each incident reported. 
 - Year/Month- We used this to filter our data for different time periods/seasons 
 - Divison ID - These are the unique patrol divisons that the CMPD separates the city by
-*insert divison picture here*
+    *insert divison picture here*
 - Type of Location - This distinguishes the locations between residental, public, commerical, retail and open area
 - Highest NIBRS Description - incident description based on the FBI NIBRS (National Incident-Based Reporting System)
   *For a full list of the Incident codes and what crimes they are related to, visit:  [FBI NIBRS User Manual](https://www.fbi.gov/file-repository/ucr/ucr-2019-1-nibrs-user-manua-093020.pdf/view)
