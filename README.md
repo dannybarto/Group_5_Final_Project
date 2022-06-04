@@ -2,7 +2,7 @@
 
 ## Introduction
 
-As residents of Charlotte, NC, our team took a personal interest in looking at and analyzing crime statistics reported by the Charlotte Mecklenburg Police Department. Charlotte is a fast-growing city. Over the last few years there has been a major influx of residents, coming to North Carolina for the reasonale cost of living and vast job opportunities. The data spans over the last 7 years, but the last few years have been particulary unqiue with a global pandemic and political unrest. With all these factors in mind, we were interested in discovering any trends that have developed over the last few years. With the safety of our city in mind, our main goal was to give insight to the CMPD on where and when crime is happening most frequently and how violent are the majority of those incidents. The data looks at the different patrol divisons in which incidents are occuring and also is categorized by what type of crime is involved. These points alone would be able to tell us where the Police department should allocate more resources and potentially which types of resources are needed.
+As residents of Charlotte, NC, our team took a personal interest in looking at and analyzing crime statistics reported by the Charlotte Mecklenburg Police Department. Charlotte is a fast-growing city. Over the last few years there has been a major influx of residents, coming to North Carolina for the reasonable cost of living and vast job opportunities. The data spans over the last 7 years, but the last few years have been particulary unqiue with a global pandemic and political unrest. With all these factors in mind, we were interested in discovering any trends that have developed over the last few years. With the safety of our city in mind, our main goal was to give insight to the CMPD on where and when crime is happening most frequently and how violent are the majority of those incidents. The data looks at the different patrol divisons in which incidents are occurring and also is categorized by what type of crime is involved. These points alone would be able to tell us where the Police department should allocate more resources and potentially which types of resources are needed.
  
 
 ## Project Objectives
@@ -20,28 +20,26 @@ The following list includes but is not limited to questions we will be asking an
 - Is there a type of location, in which crime is the highest. (ex. residential vs. commercial, etc)
 - How much violent vs. non-violent crime is there?
 
-To be clear we are not necessarily looking to predict future crimes rather we are trying to give insight and indentify areas of focus to help the CMPD reduce crime rate.
+To be clear we are not necessarily looking to predict future crimes rather we are trying to give insight and indentify areas of focus to help the CMPD reduce crime rate
 
-## Data Sources
+## Data Sources 
 
-Our primary source of information is the [City of Charlotte Open Data Portal](https://data.charlottenc.gov/)
+Our primary source of information is the [City of Charlotte Open Data Portal](https://data.charlottenc.gov/) 
 
 We looked at the CMPD Incident report data primarily. This data set was so vast, that we decided to break this into 3 different tables for our analysis.
 To view these tables, you can access them by the below link as they were too large to upload to GitHub.
 
 [OneDrive](https://onedrive.live.com/?authkey=%21ACsCHxuzouAm0bk&id=271B512C5492C5E1%21240915&cid=271B512C5492C5E1)
 
-[Incident Data](CMPD_Incidents.csv)
-
 There are a few main data points that we will be examining:
 
 - Incident Report ID - This is the unqiue identifier for each incident reported. 
 - Year/Month- We used this to filter our data for different time periods/seasons 
 - Divison ID - These are the unique patrol divisons that the CMPD separates the city by
-*insert divison picture here*
+    *insert divison picture here*
 - Type of Location - This distinguishes the locations between residental, public, commerical, retail and open area
 - Highest NIBRS Description - incident description based on the FBI NIBRS (National Incident-Based Reporting System)
-*For a full list of the Incident codes and what crimes they are related to, visit: ()*
+  *For a full list of the Incident codes and what crimes they are related to, visit:  [FBI NIBRS User Manual](https://www.fbi.gov/file-repository/ucr/ucr-2019-1-nibrs-user-manua-093020.pdf/view)
 - Violent/Non-Violent - distinguishing between violent and non-violent crime
 - Clearance Status - the clearance status of the crime 
 
@@ -61,7 +59,6 @@ Throughout the course of this project, we utilized the following database techno
 3: SQLAlchemy to allow our data to be connected directly to our machine learning model
 
 ![SQLAlchemy connection](https://github.com/dannybarto/Group_5_Final_Project/blob/Brian/SQLAlchemy%20Connection.png)
-
 
 ### Schema
 Our final schema and layout comprise the following tables, containing our datasets from the Charlotte NC Open Data Portal:
