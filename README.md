@@ -41,7 +41,7 @@ There are a few main data points that we will be examining:
 *insert divison picture here*
 - Type of Location - This distinguishes the locations between residental, public, commerical, retail and open area
 - Highest NIBRS Description - incident description based on the FBI NIBRS (National Incident-Based Reporting System)
-  *For a full list of the Incident codes and what crimes they are related to, visit:  [FBI NIBRS User Manual] (https://www.fbi.gov/file-repository/ucr/ucr-2019-1-nibrs-user-manua-093020.pdf/view)
+  *For a full list of the Incident codes and what crimes they are related to, visit:  [FBI NIBRS User Manual](https://www.fbi.gov/file-repository/ucr/ucr-2019-1-nibrs-user-manua-093020.pdf/view)
 - Violent/Non-Violent - distinguishing between violent and non-violent crime
 - Clearance Status - the clearance status of the crime 
 
