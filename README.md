@@ -2,7 +2,7 @@
 
 ## Introduction
 
-As residents of Charlotte, NC, our team took a personal interest in looking at and analyzing crime statistics reported by the Charlotte Mecklenburg Police Department. Charlotte is a fast-growing city. Over the last few years there has been a major influx of residents, coming to North Carolina for the reasonale cost of living and vast job opportunities. The data spans over the last 7 years, but the last few years have been particulary unqiue with a global pandemic and political unrest. With all these factors in mind, we were interested in discovering any trends that have developed over the last few years. With the safety of our city in mind, our main goal was to give insight to the CMPD on where and when crime is happening most frequently and how violent are the majority of those incidents. The data looks at the different patrol divisons in which incidents are occuring and also is categorized by what type of crime is involved. These points alone would be able to tell us where the Police department should allocate more resources and potentially which types of resources are needed.
+As residents of Charlotte, NC, our team took a personal interest in looking at and analyzing crime statistics reported by the Charlotte Mecklenburg Police Department. Charlotte is a fast-growing city. Over the last few years there has been a major influx of residents, coming to North Carolina for the reasonable cost of living and vast job opportunities. The data spans over the last 7 years, but the last few years have been particulary unqiue with a global pandemic and political unrest. With all these factors in mind, we were interested in discovering any trends that have developed over the last few years. With the safety of our city in mind, our main goal was to give insight to the CMPD on where and when crime is happening most frequently and how violent are the majority of those incidents. The data looks at the different patrol divisons in which incidents are occurring and also is categorized by what type of crime is involved. These points alone would be able to tell us where the Police department should allocate more resources and potentially which types of resources are needed.
  
 
 ## Project Objectives
@@ -41,7 +41,7 @@ There are a few main data points that we will be examining:
 *insert divison picture here*
 - Type of Location - This distinguishes the locations between residental, public, commerical, retail and open area
 - Highest NIBRS Description - incident description based on the FBI NIBRS (National Incident-Based Reporting System)
-*For a full list of the Incident codes and what crimes they are related to, visit: ()*
+  *For a full list of the Incident codes and what crimes they are related to, visit: (https://www.fbi.gov/file-repository/ucr/ucr-2019-1-nibrs-user-manua-093020.pdf/view)*
 - Violent/Non-Violent - distinguishing between violent and non-violent crime
 - Clearance Status - the clearance status of the crime 
 
@@ -58,6 +58,7 @@ As we work through this project, we will be utilizing PostgreSQL, a relational d
 
 #### Schema
 The CSV files we will be using from Charlotte's Open Data Portal will require some editing down in Pandas to remove uneccesary or redundant columns and rows. 
+
 As we explore and work with these datasets, we may find it beneficial to adjust these schemas to suit our needs. 
 
 Our preliminary schema will look like this: 
