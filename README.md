@@ -31,8 +31,6 @@ To view these tables, you can access them by the below link as they were too lar
 
 [OneDrive](https://onedrive.live.com/?authkey=%21ACsCHxuzouAm0bk&id=271B512C5492C5E1%21240915&cid=271B512C5492C5E1)
 
-[Incident Data](CMPD_Incidents.csv)
-
 There are a few main data points that we will be examining:
 
 - Incident Report ID - This is the unqiue identifier for each incident reported. 
