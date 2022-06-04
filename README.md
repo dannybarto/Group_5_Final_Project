@@ -24,7 +24,7 @@ To be clear we are not necessarily looking to predict future crimes rather we ar
 
 ## Data Sources 
 
-Our primary source of information is the (<a href= "https://data.charlottenc.gov/" target="_blank"> City of Charlotte Open Data Portal</a>)
+Our primary source of information is the <a href= "https://data.charlottenc.gov/" rel="noopener noreferrer"target="_new"> City of Charlotte Open Data Portal</a>
 
 We looked at the CMPD Incident report data primarily. This data set was so vast, that we decided to break this into 3 different tables for our analysis.
 To view these tables, you can access them by the below link as they were too large to upload to GitHub.
