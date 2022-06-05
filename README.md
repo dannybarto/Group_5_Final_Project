@@ -1,5 +1,7 @@
 # Group_5_Final_Project
 
+# Analyzing Crime Data in the Charlotte Area
+
 ## Introduction
 
 As residents of Charlotte, NC, our team took a personal interest in looking at and analyzing crime statistics reported by the Charlotte Mecklenburg Police Department. Charlotte is a fast-growing city. Over the last few years there has been a major influx of residents, coming to North Carolina for the reasonable cost of living and vast job opportunities. The data spans over the last 7 years, but the last few years have been particulary unqiue with a global pandemic and political unrest. With all these factors in mind, we were interested in discovering any trends that have developed over the last few years. With the safety of our city in mind, our main goal was to give insight to the CMPD on where and when crime is happening most frequently and how violent are the majority of those incidents. The data looks at the different patrol divisons in which incidents are occurring and also is categorized by what type of crime is involved. These points alone would be able to tell us where the Police department should allocate more resources and potentially which types of resources are needed.
