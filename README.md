@@ -49,21 +49,25 @@ There are a few main data points that we will be examining:
 
 To clean the data we used Python and Pandas, to set up 3 clean tables to work with. Since this data is reported and inputed from officers or staff, we had to account for a lot of human error. We had to clean up the spelling of city names and division ids, eliminate null values and also categorize the different NIBRS codes into violent vs. non-violent. 
 
-### Database 
+## Database
 
-#### Technology
-As we work through this project, we will be utilizing PostgreSQL, a relational database, to store our tabular data. As we are looking to utilize 2-3 different CSV files, we will build tables for each to house our information and build relationships between them in pgAdmin. We will also be using SQLAlchemy to communicate between our databases and machine learning model. 
+### Technology
+Throughout the course of this project, we utilized the following database technologies:
 
-#### Schema
-The CSV files we will be using from Charlotte's Open Data Portal will require some editing down in Pandas to remove uneccesary or redundant columns and rows. 
+1: PostgreSQL and pgAdmin to store our datasets in tables
+2: Amazon Web Services to connect our pgAdmin tables to AWS' Relational Database system
+3: SQLAlchemy to allow our data to be connected directly to our machine learning model
 
-As we explore and work with these datasets, we may find it beneficial to adjust these schemas to suit our needs. 
+![SQLAlchemy connection](https://github.com/dannybarto/Group_5_Final_Project/blob/Brian/SQLAlchemy%20Connection.png)
 
-Our preliminary schema will look like this: 
+### Schema
+Our final schema and layout comprise the following tables, containing our datasets from the Charlotte NC Open Data Portal:
 
-![sample db schema](https://github.com/dannybarto/Group_5_Final_Project/blob/main/sample%20db%20schema.png)
+![Final ERD](https://github.com/dannybarto/Group_5_Final_Project/blob/Brian/Final%20ERD.png)
 
-![sample db layouts](https://github.com/dannybarto/Group_5_Final_Project/blob/main/sample%20db%20layouts.png)
+It also contains the following joined table created within pgAdmin: 
+
+![Outer Join Table](https://github.com/dannybarto/Group_5_Final_Project/blob/Brian/Outer%20Join%20Table.png)
 
 ### Machine Learning  ###
 
@@ -87,14 +91,4 @@ There are a few ways this analysis could be improved upon and continued.
 Future analysis could include the following additions: 
 - Adding population data into this analysis in order to compare if growing crime trends are only related to population growth or other factors.
 - For the machine learning model: 
-
-
-
-
-
-
-
-
-
-
 
