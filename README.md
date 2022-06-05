@@ -68,12 +68,12 @@ Our preliminary schema will look like this:
 ### Machine Learning  ###
 
 #### Problem trying to solve   
-Our goal is to create a supervised machine learning model to look at number of calls and types of calls coming in, in hopes that this information will allow better distribute of cops and supplies that may be needed based on the type of crime occuring. If successful, calls will be categorized as violent or non-violent calls which we can then map our geographically to find out where violent crime is most prominent.  
+Our project goal was to create a supervised machine learning model to look at number of calls and types of calls coming in, in hopes that this information will allow better distribution of cops and supplies that may be needed based on the type of crime occuring. We were successful in categorizing calls as violent or non-violent which we can then use to map out geographically to find out where violent crime is most prominent.  
 
 ### Choosing and training the model  
-We are using a supervised learning model that will continue to use our code with new, incoming data, and categorize it as we choose. We chose a supervised learning model because we know our data outcomes and plan on using both input and output data to benefit our goal. Our project scope falls under the classification subcategory for supervised learning because we will be applying labels to our data, categorizing areas based on our crime data. We will be using SKlearn and applying a logisitc regression to help classify our data. This will be used to decipher violent crimes from the calls for service. An example of what our sklearn machine learning code may look is picture below.
+We used a supervised learning model that will continue to use our code with new, incoming data, and categorize it as we choose. We chose a supervised learning model because we know our data outcomes and plan on using both input and output data to benefit our goal. Our project scope falls under the classification subcategory for supervised learning because we applied labels to our data, categorizing areas based on our crime data. We used SKlearn and applied a logisitc regression to help classify our data. This was used to decipher violent crimes from the calls for service data. Our machine learning model has 100% accuracy, shown below.
 
-![sklearn_example](https://user-images.githubusercontent.com/96501958/168442833-9f2811c2-58ac-4276-95dc-be486bdf47d2.png)  
+![accuracy_ML](https://user-images.githubusercontent.com/96501958/172057375-63d2a5a7-88a3-4da5-8e6f-2af427e473d1.png)
 
 
 ## Dashboard - Tableau
