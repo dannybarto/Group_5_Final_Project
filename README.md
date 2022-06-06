@@ -1,5 +1,9 @@
 # Group_5_Final_Project
 
+
+# Analyzing Crime Data in the Charlotte Area
+
+
 ## Introduction
 
 As residents of Charlotte, NC, our team took a personal interest in looking at and analyzing crime statistics reported by the Charlotte Mecklenburg Police Department. Charlotte is a fast-growing city. Over the last few years there has been a major influx of residents, coming to North Carolina for the reasonable cost of living and vast job opportunities. The data spans over the last 7 years, but the last few years have been particulary unqiue with a global pandemic and political unrest. With all these factors in mind, we were interested in discovering any trends that have developed over the last few years. With the safety of our city in mind, our main goal was to give insight to the CMPD on where and when crime is happening most frequently and how violent are the majority of those incidents. The data looks at the different patrol divisons in which incidents are occurring and also is categorized by what type of crime is involved. These points alone would be able to tell us where the Police department should allocate more resources and potentially which types of resources are needed.
@@ -8,6 +12,7 @@ As residents of Charlotte, NC, our team took a personal interest in looking at a
 ## Project Objectives
 
 Our project objective is to better inform the Charlotte Police Department on where to allocate their resources best. By looking at where and when the most dangerous incidents are happening, the CMPD would be able to know which patrol divisions need the best reinforcement. Whether they station officiers in cars vs. bikes, or send officiers to the scene with more backup or not; these are the types of questions we would like to add more insight to. We were interested in also looking at the time frame in which more crimes occur. Knowing what time of year more crime, or more violent crime, is occuring would also help the CMPD with resource planning.
+
 
 ## Questions and Considerations
 
@@ -43,6 +48,7 @@ There are a few main data points that we will be examining:
 - Violent/Non-Violent - distinguishing between violent and non-violent crime
 - Clearance Status - the clearance status of the crime 
 
+
 ![](Divison_IDs.png)
 
 ## Methodology and Results 
@@ -73,11 +79,14 @@ It also contains the following joined table created within pgAdmin:
 
 ### Machine Learning  ###
 
+
 #### Problem trying to solve   
-Our goal is to create a supervised machine learning model to look at number of calls and types of calls coming in, in hopes that this information will allow better distribute of cops and supplies that may be needed based on the type of crime occuring. If successful, calls will be categorized as violent or non-violent calls which we can then map our geographically to find out where violent crime is most prominent.  
+Our project goal was to create a supervised machine learning model to look at number of calls and types of calls coming in, in hopes that this information will allow better distribution of cops and supplies that may be needed based on the type of crime occuring. We were successful in categorizing calls as violent or non-violent which we can then use to map out geographically to find out where violent crime is most prominent.  
 
 ### Choosing and training the model  
-We are using a supervised learning model that will continue to use our code with new, incoming data, and categorize it as we choose. We chose a supervised learning model because we know our data outcomes and plan on using both input and output data to benefit our goal. Our project scope falls under the classification subcategory for supervised learning because we will be applying labels to our data, categorizing areas based on our crime data. We will be using SKlearn and applying a logisitc regression to help classify our data. This will be used to decipher violent crimes from the calls for service. An example of what our sklearn machine learning code may look is picture below.
+We used a supervised learning model that will continue to use our code with new, incoming data, and categorize it as we choose. We chose a supervised learning model because we know our data outcomes and plan on using both input and output data to benefit our goal. Our project scope falls under the classification subcategory for supervised learning because we applied labels to our data, categorizing areas based on our crime data. We used SKlearn and applied a logisitc regression to help classify our data. This was used to decipher violent crimes from the calls for service data. Our machine learning model has 100% accuracy, shown below.
+
+![accuracy_ML](https://user-images.githubusercontent.com/96501958/172057375-63d2a5a7-88a3-4da5-8e6f-2af427e473d1.png)
 
 ![sklearn_example](https://user-images.githubusercontent.com/96501958/168442833-9f2811c2-58ac-4276-95dc-be486bdf47d2.png)  
 
@@ -92,5 +101,18 @@ We are using a supervised learning model that will continue to use our code with
 There are a few ways this analysis could be improved upon and continued. 
 Future analysis could include the following additions: 
 - Adding population data into this analysis in order to compare if growing crime trends are only related to population growth or other factors.
+- For the machine learning model: 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
