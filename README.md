@@ -43,7 +43,7 @@ There are a few main data points that we will be examining:
 - Violent/Non-Violent - distinguishing between violent and non-violent crime
 - Clearance Status - the clearance status of the crime 
 
-![](Divison_Ids.png)
+![](Divison_IDs.png)
 
 ## Methodology and Results 
 
