@@ -95,24 +95,14 @@ We used a supervised learning model that will continue to use our code with new,
 
 [Tableau Story Board](https://public.tableau.com/app/profile/brittany.marchand/viz/Group-5-CMPD-CrimeData/CMPDCrimeData?publish=yes)
 
+## Presentation
+
+[Google Slide Presentation](https://docs.google.com/presentation/d/1n6nNaC1U36gDLm-GZmOCUJKtaATWdt0JzsQLgElxGKk/edit?usp=sharing)
+
 
 ## Recommendations for Future Analysis
 
 There are a few ways this analysis could be improved upon and continued. 
 Future analysis could include the following additions: 
 - Adding population data into this analysis in order to compare if growing crime trends are only related to population growth or other factors.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
