@@ -101,7 +101,7 @@ We used a supervised learning model that will continue to use our code with new,
 There are a few ways this analysis could be improved upon and continued. 
 Future analysis could include the following additions: 
 - Adding population data into this analysis in order to compare if growing crime trends are only related to population growth or other factors.
-- For the machine learning model: 
+
 
 
 
